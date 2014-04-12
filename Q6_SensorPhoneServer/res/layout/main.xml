@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acceleration Values::"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/y1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y Coordinate: " />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/z1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orientation Values::"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X2 Coordinate:" />
+
+    </TableRow>
+	<TableRow>
+	    <TextView
+	        android:id="@+id/y2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Y2 Coordinate:" />
+    </TableRow>
+	<TableRow>
+	    <TextView
+	        android:id="@+id/z2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Z2 Coordinate:" />
+	</TableRow>
+    <Button
+        android:id="@+id/sendAtATime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Values one at a time" />
+
+    <Button
+        android:id="@+id/startContinuous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Sending Continuous" />
+
+</TableLayout>

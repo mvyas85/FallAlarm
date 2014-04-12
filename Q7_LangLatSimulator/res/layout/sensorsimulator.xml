@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonconnect"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.42"
+            android:text="@string/connect" />
+
+        <Button
+            android:id="@+id/buttondisconnect"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.18"
+            android:text="@string/disconnect" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+            <Button
+                android:id="@+id/sendAtATime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Values one at a time" />
+
+		    <Button
+		        android:id="@+id/startContinuous"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="Start Sending Continuous" />
+    </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/datatype"
+                        android:layout_width="dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text=""
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/sensordatalist"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                </ScrollView>
+
+</LinearLayout>

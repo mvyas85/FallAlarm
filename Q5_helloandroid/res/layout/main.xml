@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/xcoor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/ycoor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/zcoor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/xcoor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/ycoor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y Coordinate: " />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/zcoor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z Coordinate: " />
+    </TableRow>
+
+</TableLayout>
